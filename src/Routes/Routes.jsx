@@ -3,6 +3,9 @@ import {
   } from "react-router-dom";
 import Main from "../Layout/Main/Main";
 import Home from "../Pages/Home/Home";
+import Products from "../Pages/Products/Products";
+import Categories from "../Pages/Categories/Categories";
+import Blogs from "../Pages/Blog/Blogs";
 
 
 
@@ -16,10 +19,18 @@ import Home from "../Pages/Home/Home";
             path: "/",
             element: <Home/>
         },
-    //     {
-    //         path: "/menu",
-    //         element:<OurMenu></OurMenu>
-    //     },
+        {
+            path: "/products",
+            element:<Products/>
+        },
+        {
+          path: "/categories",
+          element:<Categories/>
+      },
+      {
+        path: "/blogs",
+        element:<Blogs/>
+    },
     //     {
     //         path: "/order/:category",
     //         element:<OrderPage></OrderPage>
