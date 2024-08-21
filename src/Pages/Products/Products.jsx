@@ -1,8 +1,12 @@
 import React from 'react'
+import LogIn from '../LogIn/LogIn'
+import SignUp from '../SignUp/SignUp'
 
 function Products() {
   return (
-    <div>Products</div>
+    <div>
+      <SignUp/>
+    </div>
   )
 }
 
