@@ -1,8 +1,11 @@
-import React from 'react'
+import FlashCard from "./FlashCard"
+
 
 function FlashSale() {
   return (
-    <div>FlashSale</div>
+    <div className="px-28 mt-36 ">
+        <FlashCard/>
+    </div>
   )
 }
 
