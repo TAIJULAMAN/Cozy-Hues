@@ -4,34 +4,53 @@ import Home from "../Pages/Home/Home";
 import Products from "../Pages/Products/Products";
 import Blogs from "../Pages/Blog/Blogs";
 import SignUp from "../Pages/SignUp/SignUp";
-// import Categories from './../Pages/Categories/Categories';
+import LogIn from "../Pages/LogIn/LogIn";
+import DashBoard from "../Layout/Dashboard/Dashboard";
+import AllProducts from "../Components/Dashboard/AllProducts/AllProducts";
+import AllBlogs from "../Components/Dashboard/AllBlogs/AllBlogs";
+import AllUsers from "../Components/Dashboard/AllUsers/AllUsers";
 
-//   export const router = createBrowserRouter([
-//     {
-//       path: "/",
-//       element: <Main/>,
-//       children: [
-//         {
-//             path: "/",
-//             element: <Home/>
-//         },
-//         {
-//             path: "/products",
-//             element:<Products/>
-//         },
-//         {
-//             path: "/signup",
-//             element:<SignUp/>
-//         },
-//     //     {
-//     //       path: "/categories",
-//     //       element:<Categories/>
-//     //   },
-// >>>>>>> main
-//       {
-//         path: "/blogs",
-//         element: <Blogs />,
-//       },
+export const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Main />,
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "/products",
+        element: <Products />,
+      },
+      {
+        path: "/signup",
+        element: <SignUp />,
+      },
+      {
+        path: "/blogs",
+        element: <Blogs />,
+      },
+      {
+        path: "/login",
+        element: <LogIn />,
+      },
+      {
+        path: "/dashboard",
+        element: <DashBoard/>
+      },
+      {
+        path: "/allproduct",
+        element: <AllProducts/>
+      },
+      {
+        path: "/allblogs",
+        element: <AllBlogs/>
+      },
+      {
+        path: "/allusers",
+        element: <AllUsers/>
+      },
       //     {
       //         path: "/order/:category",
       //         element:<OrderPage></OrderPage>

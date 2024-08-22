@@ -35,6 +35,8 @@ const HeroNav = () => {
             <Link to="/products" className="hover:text-[#98dad9] transition-all cursor-pointer">Products</Link>
             <Link to="/categories" className="hover:text-[#98dad9] transition-all cursor-pointer">Categories</Link>
             <Link to="/blogs" className="hover:text-[#98dad9] transition-all cursor-pointer">Blogs</Link>
+            <Link to="/dashboard" className="hover:text-[#98dad9] transition-all cursor-pointer">Dashboard</Link>
+
           </nav>
 
           <div className="max-sm:hidden sm:hidden  md:flex lg:flex gap-2">
