@@ -3,24 +3,35 @@ import Main from "../Layout/Main/Main";
 import Home from "../Pages/Home/Home";
 import Products from "../Pages/Products/Products";
 import Blogs from "../Pages/Blog/Blogs";
+import SignUp from "../Pages/SignUp/SignUp";
+// import Categories from './../Pages/Categories/Categories';
 
-export const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Main />,
-    children: [
-      {
-        path: "/",
-        element: <Home />,
-      },
-      {
-        path: "/products",
-        element: <Products />,
-      },
-      {
-        path: "/blogs",
-        element: <Blogs />,
-      },
+//   export const router = createBrowserRouter([
+//     {
+//       path: "/",
+//       element: <Main/>,
+//       children: [
+//         {
+//             path: "/",
+//             element: <Home/>
+//         },
+//         {
+//             path: "/products",
+//             element:<Products/>
+//         },
+//         {
+//             path: "/signup",
+//             element:<SignUp/>
+//         },
+//     //     {
+//     //       path: "/categories",
+//     //       element:<Categories/>
+//     //   },
+// >>>>>>> main
+//       {
+//         path: "/blogs",
+//         element: <Blogs />,
+//       },
       //     {
       //         path: "/order/:category",
       //         element:<OrderPage></OrderPage>

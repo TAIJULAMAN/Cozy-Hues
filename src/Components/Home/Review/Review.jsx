@@ -5,19 +5,19 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 function Review() {
   const info = [
     {
-      "image": "/sofa1.jpg",
+      "image": "/sofa1.png",
       "userName": "Alice Johnson",
       "reviewDescription": "The comfort level of this sofa is outstanding! Fits perfectly in my living room.",
       "city": "Dhaka"
     },
     {
-      "image": "/sofa2.jpg",
+      "image": "/sofa2.png",
       "userName": "Michael Smith",
       "reviewDescription": "Stylish and comfortable. The best purchase I've made for my new apartment.",
       "city": "Dhaka"
     },
     {
-      "image": "/sofa3.jpg",
+      "image": "/sofa1.png",
       "userName": "Emily Davis",
       "reviewDescription": "I love the modern design. The material feels durable and high-quality.",
       "city": "Dhaka"

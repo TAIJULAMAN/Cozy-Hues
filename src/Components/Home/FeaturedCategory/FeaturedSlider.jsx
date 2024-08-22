@@ -6,19 +6,19 @@ const FeaturedSlider = () => {
     const data = [
       {
         id: 1,
-        image: "/sofa1.jpg",
+        image: "/sofa1.png",
         name: "John Doe",
         description: "Creative Designer",
       },
       {
         id: 2,
-        image: "/sofa2.jpg",
+        image: "/sofa2.png",
         name: "Jane Smith",
         description: "Web Developer",
       },
       {
         id: 3,
-        image: "/sofa3.jpg",
+        image: "/sofa1.png",
         name: "Alice Johnson",
         description: "Project Manager",
       },
@@ -30,7 +30,7 @@ const FeaturedSlider = () => {
       },
       {
         id: 5,
-        image: "/sofa1.jpg",
+        image: "/sofa1.png",
         name: "John Doe",
         description: "Creative Designer",
       },
@@ -42,7 +42,7 @@ const FeaturedSlider = () => {
       },
       {
         id: 7,
-        image: "/sofa3.jpg",
+        image: "/sofa1.png",
         name: "Alice Johnson",
         description: "Project Manager",
       },
@@ -54,7 +54,7 @@ const FeaturedSlider = () => {
       },
       {
         id: 9,
-        image: "/sofa1.jpg",
+        image: "/sofa1.png",
         name: "John Doe",
         description: "Creative Designer",
       },
