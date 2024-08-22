@@ -3,9 +3,9 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 
 const ImageSlider = () => {
     const images = [
-        "/sofa1.jpg",
-        "/sofa2.jpg",
-        "/sofa3.jpg",
+        "/sofa1.png",
+        "/sofa2.png",
+        "/sofa1.png",
         "/sofa4.jpg",
         "/3.png",
         "/3.png",

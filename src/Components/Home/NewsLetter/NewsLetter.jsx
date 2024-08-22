@@ -29,7 +29,7 @@ const NewsLetter = () => {
       <div className="mt-8 md:mt-0">
         <img
           className="h-64 md:h-[450px] w-[500px] md:w-[700px] object-cover rounded-3xl"
-          src="/sofa3.jpg"
+          src="/sofa1.png"
           alt="Newsletter"
         />
       </div>

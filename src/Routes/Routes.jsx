@@ -4,8 +4,9 @@ import {
 import Main from "../Layout/Main/Main";
 import Home from "../Pages/Home/Home";
 import Products from "../Pages/Products/Products";
-import Categories from "../Pages/Categories/Categories";
 import Blogs from "../Pages/Blog/Blogs";
+import SignUp from "../Pages/SignUp/SignUp";
+// import Categories from './../Pages/Categories/Categories';
 
 
 
@@ -24,9 +25,13 @@ import Blogs from "../Pages/Blog/Blogs";
             element:<Products/>
         },
         {
-          path: "/categories",
-          element:<Categories/>
-      },
+            path: "/signup",
+            element:<SignUp/>
+        },
+    //     {
+    //       path: "/categories",
+    //       element:<Categories/>
+    //   },
       {
         path: "/blogs",
         element:<Blogs/>
