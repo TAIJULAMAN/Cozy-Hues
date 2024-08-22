@@ -9,19 +9,19 @@ function LatestBlog() {
           "date": "2024-08-20"
         },
         {
-          "image": "/sofa1.jpg",
+          "image": "/sofa1.png",
           "blogTitle": "The Future of Technology",
           "blogOwner": "Jane Smith",
           "date": "2024-08-18"
         },
         {
-          "image": "/sofa2.jpg",
+          "image": "/sofa2.png",
           "blogTitle": "Healthy Eating Habits",
           "blogOwner": "Emily Johnson",
           "date": "2024-08-15"
         },
         {
-          "image": "/sofa3.jpg",
+          "image": "/sofa1.png",
           "blogTitle": "Traveling on a Budget",
           "blogOwner": "Michael Brown",
           "date": "2024-08-10"

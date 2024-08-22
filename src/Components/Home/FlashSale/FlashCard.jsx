@@ -10,7 +10,7 @@ const FlashCard = () => {
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: `url('/sofa2.jpg')`,
+          backgroundImage: `url('/sofa2.png')`,
           opacity: 0.7, 
         }}
       ></div>
