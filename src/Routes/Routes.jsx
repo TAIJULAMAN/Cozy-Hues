@@ -9,6 +9,7 @@ import DashBoard from "../Layout/Dashboard/Dashboard";
 import AllProducts from "../Components/Dashboard/AllProducts/AllProducts";
 import AllBlogs from "../Components/Dashboard/AllBlogs/AllBlogs";
 import AllUsers from "../Components/Dashboard/AllUsers/AllUsers";
+import Cart from "../Pages/Cart/Cart";
 
 export const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ export const router = createBrowserRouter([
       {
         path: "/blogs",
         element: <Blogs />,
+      },
+      {
+        path: "/cart",
+        element: <Cart />,
       },
       {
         path: "/login",

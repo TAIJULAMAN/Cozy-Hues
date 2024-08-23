@@ -75,8 +75,8 @@ function Products() {
         {/* Left Sidebar */}
         <div className="space-y-8 md:col-span-1">
           <CategoriesFilter />
-          <PriceFielter />
-          <MaterialFielter />
+           <PriceFielter />
+           <MaterialFielter />
           <AvailabilityFilter />
         </div>
 
