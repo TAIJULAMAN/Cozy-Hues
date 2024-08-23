@@ -80,7 +80,7 @@ const HeroNav = () => {
                 <FaRegHeart className="text-white text-2xl"/>
               </button>
             </Link>
-            <Link to="/">
+            <Link to="/cart">
               <button className=" font-medium hover:bg-[#98dad9]  px-2 py-1 rounded-md transition duration-300 ease-in-out">
                 <IoBagOutline className="text-white text-2xl"/>
               </button>
