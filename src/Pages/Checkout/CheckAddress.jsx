@@ -43,15 +43,15 @@ const CheckAddress = () => {
   };
 
   return (
-    <div className="font-[sans-serif] bg-white border-2 rounded-2xl p-4 max-w-4xl mx-auto">
+    <div className="font-[sans-serif] bg-[#2d5356] border-2 rounded-2xl p-4 max-w-4xl mx-auto">
       <div className="flex flex-col gap-12 h-full">
-        <div className="w-full rounded-md px-4 py-8">
-          <h2 className="text-2xl font-bold text-gray-800 mb-8">
+        <div className="w-full rounded-md px-4 py-8 ">
+          <h2 className="text-2xl font-bold  mb-8 text-white">
             Complete your order
           </h2>
           <form className="space-y-8">
             <div>
-              <h3 className="text-base text-gray-800 mb-4">Personal Details</h3>
+              <h3 className="text-base text-white mb-4">Personal Details</h3>
               {/* personal information */}
               <div className="grid md:grid-cols-2 gap-4">
                 <CheakoutInput
@@ -92,7 +92,7 @@ const CheckAddress = () => {
             </div>
 
             <div>
-              <h3 className="text-base text-gray-800 mb-4">Shipping Address</h3>
+              <h3 className="text-base text-white mb-4">Shipping Address</h3>
 
               {/* Address information */}
               <div className="grid md:grid-cols-2 gap-4">
@@ -147,7 +147,7 @@ const CheckAddress = () => {
               {/* payment option */}
               {showPaymentOptions && (
                 <div className="mt-8">
-                  <h3 className="text-base text-gray-800 mb-4">
+                  <h3 className="text-base text-white mb-4">
                     Payment Options
                   </h3>
                   <div className="flex flex-col gap-4">

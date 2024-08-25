@@ -67,7 +67,7 @@ function Products() {
   return (
     <div className="min-h-screen">
       {/* Banner Section */}
-      <div className="py-20 md:py-40 bg-[#2d5356] px-4 md:px-16 text-white text-center">
+      <div className="py-16 md:py-20 bg-[#2d5356] px-4 md:px-16 text-white text-center">
         <p className="text-3xl md:text-5xl font-semibold">Products</p>
       </div>
 
@@ -93,13 +93,18 @@ function Products() {
           </div>
 
           {/* pagination section */}
-          <div className="mt-12 flex justify-end">
-               <Pagination/>
+          <div className="mt-20 flex justify-end ">
+        <div >
+        <Pagination/>
+        </div>
           </div>
         </div>
       </div>
       {/* lower hero */}
+      <div className="py-20">
       <LowerHero />
+      </div>
+      
     </div>
   );
 }

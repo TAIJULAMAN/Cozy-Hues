@@ -13,6 +13,7 @@ import Cart from "../Pages/Cart/Cart";
 import Checkout from "../Pages/Checkout/Checkout";
 import OrderComplete from "../Pages/OrderComplete/OrderComplete";
 import BlogSingle from "../Pages/Blog/BlogSingle";
+import Contact from "../Pages/Contact/Contact";
 
 export const router = createBrowserRouter([
   {
@@ -62,6 +63,10 @@ export const router = createBrowserRouter([
       {
         path: "/allproduct",
         element: <AllProducts/>
+      },
+      {
+        path: "/contact",
+        element: <Contact/>
       },
       {
         path: "/allblogs",
