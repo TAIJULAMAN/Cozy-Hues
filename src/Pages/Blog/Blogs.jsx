@@ -32,7 +32,7 @@ function Blogs() {
               <Pagination/>
            </div>
 
-           <div>
+           <div className="mt-28">
               <BlogCommunity/>
            </div>
     </div>
