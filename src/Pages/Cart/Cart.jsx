@@ -37,7 +37,7 @@ const Cart = () => {
 
   return (
     <div>
-      <div className="py-20 md:py-32 bg-[#2d5356] px-4 md:px-16 text-white text-center">
+      <div className="py-12 md:py-20 bg-[#2d5356] px-4 md:px-16 text-white text-center">
         <p className="text-3xl md:text-5xl font-semibold">Cart</p>
       </div>
       <div className="section-container my-6 lg:my-8 grid gap-6 lg:gap-12 lg:grid-cols-3 px-4 lg:px-12">

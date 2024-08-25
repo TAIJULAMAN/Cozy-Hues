@@ -11,6 +11,7 @@ import AllBlogs from "../Components/Dashboard/AllBlogs/AllBlogs";
 import AllUsers from "../Components/Dashboard/AllUsers/AllUsers";
 import Cart from "../Pages/Cart/Cart";
 import Checkout from "../Pages/Checkout/Checkout";
+import OrderComplete from "../Pages/OrderComplete/OrderComplete";
 
 export const router = createBrowserRouter([
   {
@@ -40,6 +41,10 @@ export const router = createBrowserRouter([
       {
         path: "/checkout",
         element: <Checkout />,
+      },
+      {
+        path: "/ordersummary",
+        element: <OrderComplete />,
       },
       {
         path: "/login",

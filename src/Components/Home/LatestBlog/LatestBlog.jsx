@@ -42,9 +42,7 @@ function LatestBlog() {
       
   return (
     <div className="mx-4 md:mx-8 lg:mx-12 mb-8 md:mb-12">
-    <p className="text-3xl md:text-4xl lg:text-5xl text-[#272626] font-semibold text-center md:text-left mb-6">
-      Explore Our Latest Blog
-    </p>
+   
 
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
       {blogs.map((blog, index) => (
