@@ -1,8 +1,10 @@
 /* eslint-disable react/prop-types */
 
+import { Link } from "react-router-dom"
+
 const LatestBlogCard = ({blog}) => {
   return (
-    <div className="max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg">
+    <Link className="max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg">
     <div className="h-64 md:h-72 lg:h-80">
       <img
         className="object-cover w-full h-full rounded-3xl"
@@ -19,7 +21,7 @@ const LatestBlogCard = ({blog}) => {
         <span className="text-[#ddb465]">{blog.date}</span>
       </p>
     </div>
-  </div>
+  </Link>
   )
 }
 

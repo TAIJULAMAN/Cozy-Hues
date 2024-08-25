@@ -46,10 +46,12 @@ const OrderSummary = () => {
               <FaArrowRightLong className="text-lg lg:text-xl" />
             </button>
           </Link>: 
+           <Link to='/ordersummary'>
             <button className="bg-[#d09423] rounded-full px-4 py-2 flex items-center gap-5 justify-center w-full lg:w-64 h-10 sm:h-12 lg:h-16 text-xs sm:text-lg lg:text-xl hover:bg-[#b0841c] transition duration-300 ease-in-out font-semibold my-6 sm:my-8">
               Confirm Payment
               <FaArrowRightLong className="text-lg lg:text-xl" />
             </button>
+           </Link>
         
         }
         
