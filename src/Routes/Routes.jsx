@@ -12,6 +12,7 @@ import AllUsers from "../Components/Dashboard/AllUsers/AllUsers";
 import Cart from "../Pages/Cart/Cart";
 import Checkout from "../Pages/Checkout/Checkout";
 import OrderComplete from "../Pages/OrderComplete/OrderComplete";
+import BlogSingle from "../Pages/Blog/BlogSingle";
 
 export const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ export const router = createBrowserRouter([
       {
         path: "/blogs",
         element: <Blogs />,
+      },
+      {
+        path: "/blogs/:id",
+        element: <BlogSingle />,
       },
       {
         path: "/cart",
