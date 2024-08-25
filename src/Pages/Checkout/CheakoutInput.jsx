@@ -12,7 +12,7 @@ const CheakoutInput = ({
   }) => {
   return (
     <div className="relative">
-    <label htmlFor={name} className="text-gray-800">
+    <label htmlFor={name} className="text-white">
       {label}
       {required && <span className="text-red-500 ml-1">*</span>}
     </label>
@@ -23,7 +23,7 @@ const CheakoutInput = ({
       value={value}
       onChange={onChange}
       required={required}
-      className={`px-4 py-3 mt-1 bg-gray-100 focus:bg-white text-gray-800 w-full text-sm rounded-md focus:outline-blue-600 ${additionalClasses}`}
+      className={`px-4 py-3 font-medium text-xl mt-1 bg-[#365e61] focus:bg-[#e8f0fe] text-white focus:text-black w-full  rounded-md focus:outline-blue-600 ${additionalClasses}`}
     />
   </div>
   )

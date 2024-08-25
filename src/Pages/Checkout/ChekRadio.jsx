@@ -15,7 +15,7 @@ const ChekRadio = ({ id, name, value, label, onChange, checked }) => {
         />
         <label
           htmlFor={id}
-          className={`text-gray-800 ${checked ? "text-blue-600 font-semibold" : ""}`}
+          className={`text-white ${checked ? "text-blue-600 font-semibold" : ""}`}
         >
           {label}
         </label>
