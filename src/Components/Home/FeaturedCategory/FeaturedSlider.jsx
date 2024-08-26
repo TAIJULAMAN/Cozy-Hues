@@ -12,19 +12,19 @@ const FeaturedSlider = () => {
       },
       {
         id: 2,
-        image: "/sofa2.png",
+        image: "/hero2.jpg",
         name: "Jane Smith",
         description: "Web Developer",
       },
       {
         id: 3,
-        image: "/sofa1.png",
+        image: "/hero3.jpg",
         name: "Alice Johnson",
         description: "Project Manager",
       },
       {
         id: 4,
-        image: "/sofa4.jpg",
+        image: "/hero4.jpg",
         name: "Alice Johnson",
         description: "Project Manager",
       },
@@ -89,7 +89,7 @@ const FeaturedSlider = () => {
         className="flex gap-4 md:gap-16 lg:gap-36 w-full transition-transform duration-500 ease-in-out"
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
     >
-        <div className="flex gap-4 md:gap-16 lg:gap-36">
+        <div className="flex gap-4 md:gap-16 lg:gap-20">
   {data.map((image, index) => (
     <div key={index} className="relative flex flex-col items-center justify-center">
       <div className="bg-[#f5f5f5] w-80 h-80  rounded-full"></div>

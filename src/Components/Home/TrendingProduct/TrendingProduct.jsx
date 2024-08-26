@@ -7,7 +7,7 @@ function TrendingProduct() {
 
     const cardDataArray = [
         {
-          imageSrc: '/chair.png',
+          imageSrc: '/pr1.png',
           badgeText: '-20%',
           title: 'Luxe Lounge Sofa',
           price: '40000 BDT',

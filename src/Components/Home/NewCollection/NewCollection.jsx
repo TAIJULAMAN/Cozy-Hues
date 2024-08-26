@@ -1,4 +1,5 @@
-import image from "../../../../public/3.png";
+import image from "/hero3.jpg";
+import image2 from "/hero2.jpg";
 import { FaArrowRight } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
@@ -26,7 +27,7 @@ function NewCollection() {
             </Link>
           </div>
           <div className="w-full md:w-1/2 flex justify-center items-center">
-            <img src={image} className="object-cover w-[100px] h-[200px] md:w-[150px] md:h-[350px]" />
+            <img src={image} className="object-cover w-[300px] h-[200px] md:w-[450px] md:h-[350px] rounded-xl" />
           </div>
         </div>
 {/* bottom card */}
@@ -49,7 +50,7 @@ function NewCollection() {
                 </Link>
               </div>
               <div className="flex justify-center items-center w-full md:w-1/2">
-                <img src={image} className="object-cover w-[50px] h-[100px] md:w-[70px] md:h-[180px]" />
+                <img src={image2} className="object-cover w-[250px] h-[150px] md:w-[270px] md:h-[180px] rounded-lg" />
               </div>
             </div>
           </div>
@@ -79,8 +80,8 @@ function NewCollection() {
               View All <FaArrowRight className="w-8 text-2xl" />
             </button>
           </Link>
-          <div className="w-80 flex justify-end md:mx-0 ">
-            <img src={image} className="object-cover w-[150px] h-[300px] md:w-[200px] md:h-[500px]" />
+          <div className=" flex justify-end ">
+            <img src={image} className="object-cover w-[300px] h-[300px] md:w-[500px] md:h-[450px] rounded-2xl md:-mt-20 mt-2" />
           </div>
         </div>
       </div>
