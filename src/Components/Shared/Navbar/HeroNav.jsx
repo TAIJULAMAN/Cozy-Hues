@@ -37,6 +37,7 @@ const HeroNav = () => {
             <Link to="/blogs" className="hover:text-[#98dad9] transition-all cursor-pointer">Blogs</Link>
             <Link to="/dashboard" className="hover:text-[#98dad9] transition-all cursor-pointer">Dashboard</Link>
             <Link to="/contact" className="hover:text-[#98dad9] transition-all cursor-pointer">Contact</Link>
+            <Link to="/about" onClick={closeMenu} className="hover:text-[#98dad9] transition-all cursor-pointer">About</Link>
 
           </nav>
 
@@ -76,6 +77,7 @@ const HeroNav = () => {
           <Link to="/categories" onClick={closeMenu} className="hover:text-[#98dad9] transition-all cursor-pointer">Categories</Link>
           <Link to="/blogs" onClick={closeMenu} className="hover:text-[#98dad9] transition-all cursor-pointer">Blogs</Link>
           <Link to="/contact" onClick={closeMenu} className="hover:text-[#98dad9] transition-all cursor-pointer">Contact</Link>
+          <Link to="/about" onClick={closeMenu} className="hover:text-[#98dad9] transition-all cursor-pointer">About</Link>
           <div className="flex justify-center gap-4">
             <Link to="/">
               <button className=" font-medium hover:bg-[#98dad9]  px-2 py-1 rounded-md transition duration-300 ease-in-out">
