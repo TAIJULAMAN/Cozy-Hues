@@ -5,37 +5,37 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 function Review() {
   const info = [
     {
-      "image": "/sofa1.png",
+      "image": "/customer1.jpg",
       "userName": "Alice Johnson",
       "reviewDescription": "The comfort level of this sofa is outstanding! Fits perfectly in my living room.",
       "city": "Dhaka"
     },
     {
-      "image": "/sofa2.png",
+      "image": "/customer2.jpg",
       "userName": "Michael Smith",
       "reviewDescription": "Stylish and comfortable. The best purchase I've made for my new apartment.",
       "city": "Dhaka"
     },
     {
-      "image": "/sofa1.png",
+      "image": "/customer3.jpg",
       "userName": "Emily Davis",
       "reviewDescription": "I love the modern design. The material feels durable and high-quality.",
       "city": "Dhaka"
     },
     {
-      "image": "/sofa4.jpg",
+      "image": "/customer4.jpg",
       "userName": "Daniel Brown",
       "reviewDescription": "Amazing value for the price. It looks even better in person!",
       "city": "Dhaka"
     },
     {
-      "image": "/3.png",
+      "image": "/customer5.jpg",
       "userName": "Sophia Wilson",
       "reviewDescription": "The color is perfect, and it adds a nice touch to my home decor.",
       "city": "Dhaka"
     },
     {
-      "image": "/3.png",
+      "image": "/customer3.jpg",
       "userName": "James Williams",
       "reviewDescription": "Highly recommend! The delivery was quick, and assembly was easy.",
       "city": "Dhaka"
@@ -46,13 +46,13 @@ function Review() {
 
   const prevSlide = () => {
     setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? info.length - 2 : prevIndex - 2
+      prevIndex === 0 ? info.length - 1 : prevIndex - 0.5
     );
   };
 
   const nextSlide = () => {
     setCurrentIndex((prevIndex) =>
-      prevIndex === info.length - 2 ? 0 : prevIndex + 2
+      prevIndex === info.length - 1 ? 0 : prevIndex + 0.5
     );
   };
 

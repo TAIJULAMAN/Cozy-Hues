@@ -4,13 +4,13 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 const ImageSlider = () => {
 
     const images = [
-        "/sofa1.png",
-        "/sofa2.png",
-        "/sofa1.png",
+        "/hero1.jpg",
+        "/hero2.jpg",
+        "/hero3.jpg",
         "/sofa4.jpg",
-        "/3.png",
-        "/3.png",
-        "/3.png",
+        "/hero4.jpg",
+        "/hero5.jpg",
+        "/hero2.jpg",
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -30,9 +30,7 @@ const ImageSlider = () => {
                 className="flex transition-transform duration-500 ease-in-out gap-6"
                 style={{ transform: `translateX(-${currentIndex * 100}%)` }}
             >
-                {images.map((image, index) => (
-                    <img key={index} src={image} alt={`slide ${index}`} className="h-48 md:h-64 lg:h-[500px] w-64 md:w-80 lg:w-96 object-cover rounded-3xl" />
-                ))}
+              
             </div>
 
             <div className="relative h-64 md:h-80 lg:h-[600px] w-full overflow-hidden">
