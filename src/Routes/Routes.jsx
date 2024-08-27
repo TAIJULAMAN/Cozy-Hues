@@ -15,6 +15,7 @@ import OrderComplete from "../Pages/OrderComplete/OrderComplete";
 import BlogSingle from "../Pages/Blog/BlogSingle";
 import Contact from "../Pages/Contact/Contact";
 import About from "../Pages/About/About";
+import ProductDetails1 from "../Components/ProductDetails/ProductDetails1";
 
 export const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ export const router = createBrowserRouter([
       {
         path: "/products",
         element: <Products />,
+      },
+      {
+        path: "/product/:id",
+        element: <ProductDetails1 />,
       },
       {
         path: "/signup",

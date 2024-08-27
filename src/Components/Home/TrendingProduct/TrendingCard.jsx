@@ -1,10 +1,11 @@
 /* eslint-disable react/prop-types */
 import { FaRegHeart } from "react-icons/fa6";
 import { GiShoppingBag } from "react-icons/gi";
+import { Link } from "react-router-dom";
 
 const TrendingCard = ({ data }) => {
   return (
-    <div className="relative bg-[#f5f5f5] rounded-3xl overflow-hidden w-full sm:w-auto">
+    <Link to='/product/:id' className="relative bg-[#f5f5f5] rounded-3xl overflow-hidden w-full sm:w-auto">
       <div className="relative flex flex-col items-start p-4">
         <div className="flex items-center justify-between w-full">
           <div className="flex items-center">
@@ -37,7 +38,7 @@ const TrendingCard = ({ data }) => {
           </div>
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 
