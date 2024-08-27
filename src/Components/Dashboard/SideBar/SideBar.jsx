@@ -105,9 +105,9 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }) => {
           <ul className="mb-6 flex flex-col gap-1">
             <li>
               <Link
-                to="/allproduct"
+                to="/dashboard/allproduct"
                 className={` group relative flex items-center gap-2 rounded-sm my-2 font-medium duration-200 dark:text-[#6C757D] ease-in-out hover:bg-graydark  ${
-                  pathname === "web" ? "bg-gray-300 p-1" : "text-[#6C757D]"
+                  pathname === "/dashboard/allproduct" ? "bg-gray-300 p-3 rounded-xl" : "text-[#6C757D]"
                 }`}
                 style={{
                   fontSize: "14px",
@@ -123,9 +123,9 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }) => {
             </li>
             <li>
               <Link
-                to="/allblogs"
+                to="/dashboard/allblogs"
                 className={` group relative flex items-center gap-2 rounded-sm my-2 font-medium duration-200 dark:text-[#6C757D] ease-in-out hover:bg-graydark  ${
-                  pathname === "app" ? "bg-gray-300 p-1" : "text-[#6C757D]"
+                  pathname === "/dashboard/allblogs" ? "bg-gray-300 p-3 rounded-xl" : "text-[#6C757D]"
                 }`}
                 style={{
                   fontSize: "14px",
@@ -141,9 +141,9 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }) => {
             </li>
             <li>
               <Link
-                to="/allusers"
+                to="/dashboard/allusers"
                 className={` group relative flex items-center gap-2 rounded-sm my-2 font-medium duration-200 dark:text-[#6C757D] ease-in-out hover:bg-graydark  ${
-                  pathname === "allusers" ? "bg-gray-300 p-1" : "text-[#6C757D]"
+                  pathname === "/dashboard/allusers" ? "bg-gray-300 p-3 rounded-xl" : "text-[#6C757D]"
                 }`}
                 style={{
                   fontSize: "14px",

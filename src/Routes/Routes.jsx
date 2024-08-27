@@ -35,8 +35,8 @@ export const router = createBrowserRouter([
         element: <ProductDetails1 />,
       },
       {
-        path: "/signup",
-        element: <SignUp />,
+        path: "/cart",
+        element: <Cart />,
       },
       {
         path: "/blogs",
@@ -47,9 +47,24 @@ export const router = createBrowserRouter([
         element: <BlogSingle />,
       },
       {
-        path: "/cart",
-        element: <Cart />,
+        path: "/about",
+        element: <About />,
       },
+      {
+        path: "/contact",
+        element: <Contact />,
+      },
+
+      {
+        path: "/signup",
+        element: <SignUp />,
+      },
+
+      {
+        path: "/login",
+        element: <LogIn />,
+      },
+
       {
         path: "/checkout",
         element: <Checkout />,
@@ -58,100 +73,28 @@ export const router = createBrowserRouter([
         path: "/ordersummary",
         element: <OrderComplete />,
       },
-      {
-        path: "/login",
-        element: <LogIn />,
-      },
-      {
-        path: "/dashboard",
-        element: <DashBoard/>
-      },
-      {
-        path: "/allproduct",
-        element: <AllProducts/>
-      },
-      {
-        path: "/contact",
-        element: <Contact/>
-      },
-      {
-        path: "/about",
-        element: <About/>
-      },
-      {
-        path: "/allblogs",
-        element: <AllBlogs/>
-      },
-      {
-        path: "/allusers",
-        element: <AllUsers/>
-      },
-      //     {
-      //         path: "/order/:category",
-      //         element:<OrderPage></OrderPage>
-      //     },
-      //     {
-      //       path: "/login",
-      //       element:<LogIn></LogIn>
-      //   },
-      //     {
-      //       path: "/signup",
-      //       element:<Signup></Signup>
-      //   },
-      //     {
-      //       path: "gallery",
-      //       element:<Gallery></Gallery>
-      //   }
     ],
   },
 
   // dashboard routes..............................................................................
 
-  // {
-  //   path: "dashboard",
-  //   element:<PrivateRoute><DashBoard></DashBoard></PrivateRoute>,
-  //   children: [
-  //     {
-  //       path: "mycart",
-  //       element:<MyCart></MyCart>,
-  //     },
-  //     {
-  //       path: "userhome",
-  //       element:<UserHome></UserHome>
-  //     },
-  //     {
-  //       path: "reservation",
-  //       element:<Reservation></Reservation>
-  //     },
-  //     {
-  //       path: "payment",
-  //       element:<Payment></Payment>
-  //     },
-  //     {
-  //       path: "reviews",
-  //       element:<AddReview></AddReview>
-  //     },
-  //     {
-  //       path: "bookings",
-  //       element:<Bookings></Bookings>
-  //     },
-  //     // ...................admin route.........................
-  //     {
-  //       path: "allusers",
-  //       element:<AdminRoute><AllUsers></AllUsers></AdminRoute>
-  //     },
-  //     {
-  //       path: "addItem",
-  //       element:<AdminRoute><AddItem></AddItem></AdminRoute>
-  //     },
-  //     {
-  //       path: "manageitem",
-  //       element:<AdminRoute><ManageItem></ManageItem></AdminRoute>
-  //     },
-  //     {
-  //       path: "adminhome",
-  //       element:<AdminRoute><AdminHome></AdminHome></AdminRoute>
-  //     },
-  //   ]
-  // }
+  {
+    path: "/dashboard",
+    element: <DashBoard />,
+    children: [
+      {
+        path: "allproduct",
+        element: <AllProducts />,
+      },
+
+      {
+        path: "allblogs",
+        element: <AllBlogs />,
+      },
+      {
+        path: "allusers",
+        element: <AllUsers />,
+      },
+    ],
+  },
 ]);
