@@ -21,6 +21,8 @@ import CreatePost from "../Components/Dashboard/AllBlogs/CreateBlog";
 import CreateProduct from './../Pages/Products/CreateProduct';
 import UpdateProduct from "../Pages/Products/UpdateProduct";
 import UpdateBlog from "../Components/Dashboard/AllBlogs/UpdateBlog";
+import UserHome from "../Components/Dashboard/UserHome/UserHome";
+import AdminHome from "../Components/Dashboard/AdminHome/AdminHome";
 
 export const router = createBrowserRouter([
   {
@@ -113,8 +115,16 @@ export const router = createBrowserRouter([
         element: <UpdateBlog />,
       },
       {
+        path: "userhome",
+        element: <UserHome/>
+      },
+      {
         path: "allusers",
         element: <AllUsers />,
+      },
+      {
+        path: "adminhome",
+        element: <AdminHome/>
       },
     ],
   },

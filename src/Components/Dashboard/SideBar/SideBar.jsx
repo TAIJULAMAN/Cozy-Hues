@@ -103,6 +103,42 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }) => {
       <div className="no-scrollbar flex flex-col overflow-y-auto duration-300 ease-linear p-4 border-r">
         <nav className=" flex flex-col gap-[24px]">
           <ul className="mb-6 flex flex-col gap-1">
+          <li>
+              <Link
+                to="/dashboard/adminhome"
+                className={` group relative flex items-center gap-2 rounded-sm my-2 font-medium duration-200 dark:text-[#6C757D] ease-in-out hover:bg-graydark  ${
+                  pathname === "/dashboard/adminhome" ? "bg-gray-300 p-3 rounded-xl" : "text-[#6C757D]"
+                }`}
+                style={{
+                  fontSize: "14px",
+                  fontWeight: "400",
+                  fontStyle: "normal",
+                  lineHeight: "normal",
+                  fontFamily: "",
+                }}
+              >
+                <CgWebsite />
+               AdminDashBoard
+              </Link>
+            </li>
+          <li>
+              <Link
+                to="/dashboard/userhome"
+                className={` group relative flex items-center gap-2 rounded-sm my-2 font-medium duration-200 dark:text-[#6C757D] ease-in-out hover:bg-graydark  ${
+                  pathname === "/dashboard/userhome" ? "bg-gray-300 p-3 rounded-xl" : "text-[#6C757D]"
+                }`}
+                style={{
+                  fontSize: "14px",
+                  fontWeight: "400",
+                  fontStyle: "normal",
+                  lineHeight: "normal",
+                  fontFamily: "",
+                }}
+              >
+                <CgWebsite />
+               UserDashBoard
+              </Link>
+            </li>
             <li>
               <Link
                 to="/dashboard/allproduct"
