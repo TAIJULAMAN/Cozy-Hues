@@ -16,6 +16,11 @@ import BlogSingle from "../Pages/Blog/BlogSingle";
 import Contact from "../Pages/Contact/Contact";
 import About from "../Pages/About/About";
 import ProductDetails1 from "../Components/ProductDetails/ProductDetails1";
+import CreateBlog from "../Components/Dashboard/AllBlogs/CreateBlog";
+import CreatePost from "../Components/Dashboard/AllBlogs/CreateBlog";
+import CreateProduct from './../Pages/Products/CreateProduct';
+import UpdateProduct from "../Pages/Products/UpdateProduct";
+import UpdateBlog from "../Components/Dashboard/AllBlogs/UpdateBlog";
 
 export const router = createBrowserRouter([
   {
@@ -86,10 +91,26 @@ export const router = createBrowserRouter([
         path: "allproduct",
         element: <AllProducts />,
       },
+      {
+        path: "createproduct",
+        element: <CreateProduct/>,
+      },
+      {
+        path: "updateproduct/:id",
+        element: <UpdateProduct/>,
+      },
 
       {
         path: "allblogs",
         element: <AllBlogs />,
+      },
+      {
+        path: "createblog",
+        element: <CreateBlog />,
+      },
+      {
+        path: "updateblog/:id",
+        element: <UpdateBlog />,
       },
       {
         path: "allusers",
