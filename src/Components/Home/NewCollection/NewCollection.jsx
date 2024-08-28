@@ -20,8 +20,8 @@ function NewCollection() {
             <p className="text-[#414140] text-base font-semibold pb-2">Wing Chair</p>
             <p className="text-[#414140] text-base font-semibold pb-2">Cafe Chair</p>
             <p className="text-[#414140] text-base font-semibold pb-2">Wheels Chair</p>
-            <Link>
-              <button className="border-b-2 border-[#2d5356] text-[#2d5356] text-xl font-semibold flex justify-center items-center gap-2 mt-3 md:mt-0">
+            <Link  to='/products' >
+              <button className=" border-b-2 border-[#2d5356] text-[#2d5356] hover:text-[#124447] text-xl font-semibold flex justify-center items-center gap-2 mt-4 md:mt-0">
                 View All <FaArrowRight className="w-6 md:w-8 text-xl md:text-2xl" />
               </button>
             </Link>
@@ -43,7 +43,7 @@ function NewCollection() {
                 <p className="text-[#414140] text-sm font-medium pb-2">Wing Chair</p>
                 <p className="text-[#414140] text-sm font-medium pb-2">Cafe Chair</p>
                 <p className="text-[#414140] text-sm font-medium pb-3">Wheels Chair</p>
-                <Link>
+                <Link to='/products'>
                   <button className="border-b-2 border-[#2d5356] text-[#2d5356] text-sm md:text-xl font-semibold flex justify-center items-center gap-2">
                     View All <FaArrowRight className="w-6 md:w-8 text-xl md:text-2xl" />
                   </button>
@@ -75,7 +75,7 @@ function NewCollection() {
           <p className="text-[#414140] text-base font-semibold pb-2">Wing Chair</p>
           <p className="text-[#414140] text-base font-semibold pb-2">Cafe Chair</p>
           <p className="text-[#414140] text-base font-semibold pb-2">Wheels Chair</p>
-          <Link>
+          <Link to='/products'>
             <button className="border-b-2 border-[#2d5356] text-[#2d5356] text-xl font-semibold flex justify-center items-center gap-2 mt-3">
               View All <FaArrowRight className="w-8 text-2xl" />
             </button>
