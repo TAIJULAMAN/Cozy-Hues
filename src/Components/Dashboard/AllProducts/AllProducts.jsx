@@ -62,8 +62,13 @@ function AllProducts() {
   ];
   return (
     <div>
-        {/* add user part */}
         
+        <div className="flex justify-between py-6">
+        <p className="text-3xl font-semibold">All Products</p>
+       <Link to='/dashboard/createblog'> <button className="bg-green-700 w-32 h-12 rounded-lg text-white font-bold">
+          Create Product
+        </button></Link>
+      </div>
 
       <div className="overflow-x-auto shadow-md sm:rounded-lg">
         <table className="min-w-full text-sm text-left text-gray-500">

@@ -23,6 +23,7 @@ import UpdateProduct from "../Pages/Products/UpdateProduct";
 import UpdateBlog from "../Components/Dashboard/AllBlogs/UpdateBlog";
 import UserHome from "../Components/Dashboard/UserHome/UserHome";
 import AdminHome from "../Components/Dashboard/AdminHome/AdminHome";
+import EditUser from "../Components/Dashboard/AllUsers/EditUser";
 
 export const router = createBrowserRouter([
   {
@@ -121,6 +122,10 @@ export const router = createBrowserRouter([
       {
         path: "allusers",
         element: <AllUsers />,
+      },
+      {
+        path: "edituser",
+        element: <EditUser />,
       },
       {
         path: "adminhome",

@@ -157,24 +157,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }) => {
                 All Products
               </Link>
             </li>
-            <li>
-              <Link
-                to="/dashboard/createproduct"
-                className={` group relative flex items-center gap-2 rounded-sm my-2 font-medium duration-200 dark:text-[#6C757D] ease-in-out hover:bg-graydark  ${
-                  pathname === "/dashboard/createproduct" ? "bg-gray-300 p-3 rounded-xl" : "text-[#6C757D]"
-                }`}
-                style={{
-                  fontSize: "14px",
-                  fontWeight: "400",
-                  fontStyle: "normal",
-                  lineHeight: "normal",
-                  fontFamily: "",
-                }}
-              >
-                <CgWebsite />
-                Create Products
-              </Link>
-            </li>
+           
           
             <li>
               <Link
@@ -194,24 +177,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }) => {
                 All Blogs
               </Link>
             </li>
-            <li>
-              <Link
-                to="/dashboard/createblog"
-                className={` group relative flex items-center gap-2 rounded-sm my-2 font-medium duration-200 dark:text-[#6C757D] ease-in-out hover:bg-graydark  ${
-                  pathname === "/dashboard/createblog" ? "bg-gray-300 p-3 rounded-xl" : "text-[#6C757D]"
-                }`}
-                style={{
-                  fontSize: "14px",
-                  fontWeight: "400",
-                  fontStyle: "normal",
-                  lineHeight: "normal",
-                  fontFamily: "",
-                }}
-              >
-                <IoMdApps />
-                Create Blog
-              </Link>
-            </li>
+          
             <li>
               <Link
                 to="/dashboard/allusers"

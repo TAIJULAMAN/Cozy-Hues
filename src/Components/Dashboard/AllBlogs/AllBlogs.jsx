@@ -44,6 +44,12 @@ function AllBlogs() {
       ]
   return (
     <div>
+        <div className="flex justify-between py-6">
+        <p className="text-3xl font-semibold">All Blogs</p>
+       <Link to='/dashboard/createblog'> <button className="bg-green-700 w-28 h-12 rounded-lg text-white font-bold">
+          Create Blogs
+        </button></Link>
+      </div>
     <div className="overflow-x-auto shadow-md sm:rounded-lg">
       <table className="min-w-full text-sm text-left text-gray-500">
         <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
